@@ -13,6 +13,8 @@
 		5BC91C9229DDEA750001DB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC91C9029DDEA750001DB05 /* Main.storyboard */; };
 		5BC91C9429DDEA770001DB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC91C9329DDEA770001DB05 /* Assets.xcassets */; };
 		5BC91C9729DDEA770001DB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC91C9529DDEA770001DB05 /* LaunchScreen.storyboard */; };
+		5BC91CA229DDEBA50001DB05 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC91CA129DDEBA50001DB05 /* Tabbar.storyboard */; };
+		5BC91CA429DDF1640001DB05 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC91CA329DDF1640001DB05 /* TabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5BC91C9329DDEA770001DB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC91C9629DDEA770001DB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BC91C9829DDEA770001DB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC91CA129DDEBA50001DB05 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		5BC91CA329DDF1640001DB05 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		5BC91C8929DDEA750001DB05 /* PizzaMarket */ = {
 			isa = PBXGroup;
 			children = (
-				5BC91C8A29DDEA750001DB05 /* AppDelegate.swift */,
-				5BC91C8C29DDEA750001DB05 /* SceneDelegate.swift */,
-				5BC91C8E29DDEA750001DB05 /* ViewController.swift */,
-				5BC91C9029DDEA750001DB05 /* Main.storyboard */,
+				5BC91C9E29DDEA8A0001DB05 /* Apllication */,
+				5BC91C9F29DDEB360001DB05 /* Main */,
+				5BC91CA029DDEB820001DB05 /* Tabbar */,
 				5BC91C9329DDEA770001DB05 /* Assets.xcassets */,
 				5BC91C9529DDEA770001DB05 /* LaunchScreen.storyboard */,
 				5BC91C9829DDEA770001DB05 /* Info.plist */,
 			);
 			path = PizzaMarket;
+			sourceTree = "<group>";
+		};
+		5BC91C9E29DDEA8A0001DB05 /* Apllication */ = {
+			isa = PBXGroup;
+			children = (
+				5BC91C8A29DDEA750001DB05 /* AppDelegate.swift */,
+				5BC91C8C29DDEA750001DB05 /* SceneDelegate.swift */,
+			);
+			path = Apllication;
+			sourceTree = "<group>";
+		};
+		5BC91C9F29DDEB360001DB05 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5BC91C8E29DDEA750001DB05 /* ViewController.swift */,
+				5BC91C9029DDEA750001DB05 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5BC91CA029DDEB820001DB05 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				5BC91CA329DDF1640001DB05 /* TabbarController.swift */,
+				5BC91CA129DDEBA50001DB05 /* Tabbar.storyboard */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC91CA229DDEBA50001DB05 /* Tabbar.storyboard in Resources */,
 				5BC91C9729DDEA770001DB05 /* LaunchScreen.storyboard in Resources */,
 				5BC91C9429DDEA770001DB05 /* Assets.xcassets in Resources */,
 				5BC91C9229DDEA750001DB05 /* Main.storyboard in Resources */,
@@ -139,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BC91C8F29DDEA750001DB05 /* ViewController.swift in Sources */,
+				5BC91CA429DDF1640001DB05 /* TabbarController.swift in Sources */,
 				5BC91C8B29DDEA750001DB05 /* AppDelegate.swift in Sources */,
 				5BC91C8D29DDEA750001DB05 /* SceneDelegate.swift in Sources */,
 			);
