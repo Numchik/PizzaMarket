@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let storybord = UIStoryboard(name: "Tabbar", bundle: nil)
         let vc = storybord.instantiateViewController(identifier: "Tabbar")
-        self.navigationItem.pushViewController(vc, animated: false)
+        self.navigationController?.pushViewController(vc, animated: false)
         
     }
 
