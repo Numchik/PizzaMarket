@@ -49,6 +49,8 @@
 		5BC91CE929DDF64D0001DB05 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5BC91CE829DDF64D0001DB05 /* FirebaseStorageCombine-Community */; };
 		5BC91CEB29DDFD570001DB05 /* APIManadger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC91CEA29DDFD570001DB05 /* APIManadger.swift */; };
 		5BC91CED29DE0FE50001DB05 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC91CEC29DE0FE50001DB05 /* MenuTableViewCell.swift */; };
+		5BFA596029DE31EC00F7370B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA595F29DE31EC00F7370B /* HeaderView.swift */; };
+		5BFA596229DE32B200F7370B /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BFA596129DE32B200F7370B /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		5BC91CB129DDF5AB0001DB05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/SVGIcon/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5BC91CEA29DDFD570001DB05 /* APIManadger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManadger.swift; sourceTree = "<group>"; };
 		5BC91CEC29DE0FE50001DB05 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		5BFA595F29DE31EC00F7370B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5BFA596129DE32B200F7370B /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,11 +201,21 @@
 		5BC91CA829DDF2E00001DB05 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				5BFA595C29DE312800F7370B /* Heder */,
 				5BC91CA929DDF3190001DB05 /* MenuViewController.swift */,
 				5BC91CEA29DDFD570001DB05 /* APIManadger.swift */,
 				5BC91CEC29DE0FE50001DB05 /* MenuTableViewCell.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		5BFA595C29DE312800F7370B /* Heder */ = {
+			isa = PBXGroup;
+			children = (
+				5BFA595F29DE31EC00F7370B /* HeaderView.swift */,
+				5BFA596129DE32B200F7370B /* HeaderView.xib */,
+			);
+			path = Heder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +311,7 @@
 				5BC91CA229DDEBA50001DB05 /* Tabbar.storyboard in Resources */,
 				5BC91C9729DDEA770001DB05 /* LaunchScreen.storyboard in Resources */,
 				5BC91CB229DDF5AB0001DB05 /* GoogleService-Info.plist in Resources */,
+				5BFA596229DE32B200F7370B /* HeaderView.xib in Resources */,
 				5BC91C9429DDEA770001DB05 /* Assets.xcassets in Resources */,
 				5BC91C9229DDEA750001DB05 /* Main.storyboard in Resources */,
 			);
@@ -312,6 +327,7 @@
 				5BC91C8F29DDEA750001DB05 /* ViewController.swift in Sources */,
 				5BC91CAE29DDF3480001DB05 /* ProfielsViewController.swift in Sources */,
 				5BC91CAA29DDF3190001DB05 /* MenuViewController.swift in Sources */,
+				5BFA596029DE31EC00F7370B /* HeaderView.swift in Sources */,
 				5BC91CB029DDF35D0001DB05 /* KorzinaViewController.swift in Sources */,
 				5BC91CED29DE0FE50001DB05 /* MenuTableViewCell.swift in Sources */,
 				5BC91CA429DDF1640001DB05 /* TabbarController.swift in Sources */,

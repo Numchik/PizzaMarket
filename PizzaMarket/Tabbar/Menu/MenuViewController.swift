@@ -38,7 +38,19 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         return pizza.count
     
        }
-       
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+            return HeaderView.instantiate()
+        }
+        
+        func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+            return 190
+        }
+        
+     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+            return UIView()
+        }
+   
+     
        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MenuTableViewCell
            cell.pizzaName.text = pizza[indexPath.row].name
@@ -46,5 +58,6 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
            cell.pizzaImage.image = pizza[indexPath.row].image
            return cell
        }
-
+    
+ 
 }
